@@ -1,0 +1,78 @@
+.App {
+    font-family: 'Arial, sans-serif';
+    color: white;
+    background-color: #1e003a;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sign-up {
+    background-color: #fff;
+    color: #1e003a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #6c63ff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .know-more {
+    background-color: #fff;
+    color: #1e003a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  
