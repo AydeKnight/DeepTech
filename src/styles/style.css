@@ -10,14 +10,22 @@
 
   }
   .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    align-items: center; /* Vertically align items */
-    justify-content: space-between; /* Space out items evenly */
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
     background-color: #13072e;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1000; /* Adjust as needed */
   }
+  
+  /* Adjustments for mobile responsiveness remain the same */
+  
   
   .logo-image {
     height: 50px; /* Adjust the height as needed */
@@ -56,18 +64,33 @@
   
   
   .pading{
-    padding: 65px;
+    padding-top: 130px;
   }
   .card{
     --bs-card-border-color: rgb(48 24 102) !important;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e094d; /* Default background color for the card */
+  animation: fadeIn 1s ease-in-out; /* Animation for fade-in effect */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   .card-body{
     background-color: #301866;
   }
   .main-section {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 50px;
   }
@@ -125,6 +148,7 @@
     position: relative;
     display: flex;
     max-width: 500px;
+    margin-left: 16%;
     overflow: hidden;
     border-radius: 50% / 10%;
     align-items: center;

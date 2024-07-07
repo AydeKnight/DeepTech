@@ -6,7 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function IntialPage() {
   return (
-    <div class="card" >
+    <div class="card card-purple" >
     <div class="card-body">
         
         <div className="main-section">
@@ -16,11 +16,13 @@ function IntialPage() {
         <p>
             Innovative solutions transforming design and marketing with cutting-edge technology, ensuring enhanced productivity, creativity, and seamless integration for businesses of all sizes.
         </p>
+        <div>
         <button className="know-more">
         <span>Know More</span>
             <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" />
 
         </button>
+        </div>
         </div>
         <div className="image-container">
         <img src={AiModel} alt="AI model" className="image" />

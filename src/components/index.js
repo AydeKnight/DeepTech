@@ -7,7 +7,7 @@ function Main() {
     <div className="App">
      <Navbar/>
      <div className='pading'>
-     <IntialPage/>
+        <IntialPage/>
      </div>
     </div>
   );
