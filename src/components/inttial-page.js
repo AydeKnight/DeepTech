@@ -7,7 +7,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 function IntialPage() {
   return (
     <div class="card card-purple" >
-    <div class="card-body">
+    <div class="card-body special-shadow">
         
         <div className="main-section">
         <div className="content">

@@ -1,4 +1,5 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import "../styles/style.css";
 import Navbar from './navbar';
 import IntialPage from './inttial-page';
@@ -11,6 +12,9 @@ function Main() {
   const modelsRef = useRef(null);
   const pricingRef = useRef(null);
   const aboutRef = useRef(null);
+
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const scrollToModels = () => {
     if (modelsRef.current) {
@@ -29,6 +33,18 @@ function Main() {
       aboutRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  useEffect(() => {
+    if (location.hash) {
+      const elementId = location.hash.replace('#', '');
+      const element = document.getElementById(elementId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+      // Clear the URL hash after scrolling
+      navigate('/', { replace: true });
+    }
+  }, [location, navigate]);
 
   return (
     <div className="App">

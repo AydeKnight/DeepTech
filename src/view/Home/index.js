@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import IMG1 from "./img3.jpg"
 import IMG2 from "./img2.jpg"
@@ -12,7 +13,7 @@ function ModelsComponent({ refProp }) {
           <h1>Our Ai Models</h1>
         </div>
       </div>
-      <div className="row justify-content-center">
+      <div className="box row justify-content-center">
 
         <div className="col-md-4 col-sm-6 mb-4">
           <div className="card  text-light">
