@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/DeepTec" element={<Main />} />
+        <Route path="/DeepTech" element={<Main />} />
       </Routes>
     </Router>
   );
