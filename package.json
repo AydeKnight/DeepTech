@@ -10,7 +10,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
-    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
@@ -47,5 +46,8 @@
   "main": "index.js",
   "author": "Arpith",
   "license": "ISC",
-  "homepage": "https://AydeKnight.github.io/DeepTech"
+  "homepage": "https://AydeKnight.github.io/DeepTech",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
