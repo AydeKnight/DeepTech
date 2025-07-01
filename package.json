@@ -10,6 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +46,6 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "Arpith",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://your-username.github.io/your-repo-name"
 }
