@@ -62,5 +62,6 @@ modern-blog/
 - Inspired by modern SaaS and AI landing page designs
 
 ---
+// npm run deploy
 
 > Made with ❤️ for creative brands and future-focused teams.

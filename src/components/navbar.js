@@ -1,23 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../styles/style.css";
 
 function Navbar({ scrollToModels, scrollToPricing, scrollToAbout }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => setMenuOpen((open) => !open);
+  const handleNavClick = (fn) => {
+    setMenuOpen(false);
+    fn();
+  };
+
   return (
     <div className="navbar">
-      <img src={`${process.env.PUBLIC_URL}/favico.jpg`} alt="Logo" className="logo-image" />
-      <div className="logo">
-        DeepTech
+      <div className="navbar-row">
+        <img src={`${process.env.PUBLIC_URL}/favico.jpg`} alt="Logo" className="logo-image" />
+        <div className="logo">DeepTech</div>
+        <button className="hamburger" onClick={handleMenuToggle} aria-label="Toggle menu">
+          <span className={menuOpen ? "bar open" : "bar"}></span>
+          <span className={menuOpen ? "bar open" : "bar"}></span>
+          <span className={menuOpen ? "bar open" : "bar"}></span>
+        </button>
       </div>
-      <div className="nav-links">
-      <a href="#models" className="nav-link" onClick={scrollToModels}>Models</a>
-      <a href="#pricing" className="nav-link" onClick={scrollToPricing}>Pricing</a>
-      <a href="#about" className="nav-link" onClick={scrollToAbout}>About</a>
-      
-        {/* <button type="button" class="btn btn-outline-light">Models</button>
-        <button type="button" class="btn btn-outline-light">Pricing</button>
-        <button type="button" class="btn btn-outline-light">About</button> */}
+      <div className={`nav-menu${menuOpen ? " open" : ""}`}>
+        <div className="nav-links">
+          <a href="#models" className="nav-link" onClick={() => handleNavClick(scrollToModels)}>Models</a>
+          <a href="#pricing" className="nav-link" onClick={() => handleNavClick(scrollToPricing)}>Pricing</a>
+          <a href="#about" className="nav-link" onClick={() => handleNavClick(scrollToAbout)}>About</a>
+        </div>
+        <button className="sign-up" disabled={true}>Sign up</button>
       </div>
-      <button className="sign-up" disabled={true} >Sign up</button>
     </div>
   );
 }
