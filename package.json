@@ -46,7 +46,7 @@
   "main": "index.js",
   "author": "Arpith",
   "license": "ISC",
-  "homepage": "https://AydeKnight.github.io",
+  "homepage": "https://AydeKnight.github.io/DeepTec",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
