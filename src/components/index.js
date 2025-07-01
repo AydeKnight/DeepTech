@@ -1,31 +1,70 @@
-import React from 'react';
+import React, { useRef,useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import "../styles/style.css";
+import Navbar from './navbar';
+import IntialPage from './inttial-page';
+import Home from "../view/Home/index";
+import Pricing from "../view/Pricing/index";
+import About from "../view/About/index";
 
 function Main() {
+
+  const modelsRef = useRef(null);
+  const pricingRef = useRef(null);
+  const aboutRef = useRef(null);
+
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const scrollToModels = () => {
+    if (modelsRef.current) {
+      modelsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToPricing = () => {
+    if (pricingRef.current) {
+      pricingRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToAbout = () => {
+    if (aboutRef.current) {
+      aboutRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  useEffect(() => {
+    if (location.hash) {
+      const elementId = location.hash.replace('#', '');
+      const element = document.getElementById(elementId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+      // Clear the URL hash after scrolling
+      navigate('/', { replace: true });
+    }
+  }, [location, navigate]);
+
   return (
     <div className="App">
-      <div className="navbar">
-        <div className="logo">deeptech</div>
-        <div className="nav-links">
-          <a href="#models">Models</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#about">About</a>
-        </div>
-        <button className="sign-up">Sign up</button>
-      </div>
-      <div className="main-section">
-        <div className="content">
-          <span className="tag">#aimodel solutions</span>
-          <h1>Finetuned AI Models for Your Brand</h1>
-          <p>
-            Innovative solutions transforming design and marketing with cutting-edge technology, ensuring enhanced productivity, creativity, and seamless integration for businesses of all sizes.
-          </p>
-          <button className="know-more">know more</button>
-        </div>
-        <div className="image">
-          <img src="path-to-your-image.png" alt="AI model" />
-        </div>
-      </div>
+     <Navbar 
+      scrollToModels={scrollToModels} 
+      scrollToPricing={scrollToPricing} 
+      scrollToAbout={scrollToAbout} 
+     />
+     <div className='pading'>
+        <IntialPage/>
+     </div>
+     <div >
+        <Home refProp={modelsRef} />
+     </div>
+     <div>
+        <Pricing refProp={pricingRef} />
+     </div>
+     <div >
+        <About refProp={aboutRef}/>
+     </div>
     </div>
   );
 }
