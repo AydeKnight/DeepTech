@@ -7,7 +7,7 @@ import IMG3 from "./img4.jpg"
 function ModelsComponent({ refProp }) {
   return (
     <div ref={refProp} id="models">
-     <div className="container-fluid  vh-100">
+     <div className="container-fluid">
       <div className="row justify-content-center">
         <div className="col-10 text-center my-5">
           <h1>Our Ai Models</h1>
@@ -19,7 +19,7 @@ function ModelsComponent({ refProp }) {
           <div className="card  text-light">
           <div className='img-size'>
               <img src={IMG1} className="card-img-top" alt="All purpose" />
-              <div className="badge bg-primary position-absolute top-0 start-0 m-2">#trends</div>
+              <div className="badge bg-primary position-absolute top-0  m-2">#trends</div>
             </div>
             <div className="card-body">
               <span className='font-s'> All purpose</span>
@@ -35,7 +35,7 @@ function ModelsComponent({ refProp }) {
           <div className="card  text-light">
           <div className='img-size'>
             <img src={IMG2} className="card-img-top" alt="Fitness" />
-            <div className="badge bg-primary position-absolute top-0 start-0 m-2">#news</div>
+            <div className="badge bg-primary position-absolute top-0  m-2">#news</div>
             </div>
             <div className="card-body">
               <span className='font-s'> Fitness </span>
@@ -50,7 +50,7 @@ function ModelsComponent({ refProp }) {
           <div className="card  text-light">
           <div className='img-size'>
             <img src={IMG3} className="card-img-top" alt="Lifestyle" />
-            <div className="badge bg-primary position-absolute top-0 start-0 m-2">#trends</div>
+            <div className="badge bg-primary position-absolute top-0  m-2">#trends</div>
             </div>
             <div className="card-body">
             <span className='font-s'> Lifestyle</span>
