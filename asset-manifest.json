@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DeepTech/static/css/main.2c455daf.css",
-    "main.js": "/DeepTech/static/js/main.8d9a8b6f.js",
+    "main.css": "/DeepTech/static/css/main.9811bbf2.css",
+    "main.js": "/DeepTech/static/js/main.405d1ba8.js",
     "static/js/453.1f8a33f9.chunk.js": "/DeepTech/static/js/453.1f8a33f9.chunk.js",
     "static/media/fa-solid-900.ttf": "/DeepTech/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/img1.jpg": "/DeepTech/static/media/img1.9b057d9562a511430333.jpg",
@@ -17,12 +17,12 @@
     "static/media/fa-v4compatibility.ttf": "/DeepTech/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/DeepTech/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/DeepTech/index.html",
-    "main.2c455daf.css.map": "/DeepTech/static/css/main.2c455daf.css.map",
-    "main.8d9a8b6f.js.map": "/DeepTech/static/js/main.8d9a8b6f.js.map",
+    "main.9811bbf2.css.map": "/DeepTech/static/css/main.9811bbf2.css.map",
+    "main.405d1ba8.js.map": "/DeepTech/static/js/main.405d1ba8.js.map",
     "453.1f8a33f9.chunk.js.map": "/DeepTech/static/js/453.1f8a33f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c455daf.css",
-    "static/js/main.8d9a8b6f.js"
+    "static/css/main.9811bbf2.css",
+    "static/js/main.405d1ba8.js"
   ]
 }
