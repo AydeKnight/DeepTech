@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.4362509d.css",
-    "main.js": "/your-repo-name/static/js/main.1c9295cd.js",
-    "static/js/453.1f8a33f9.chunk.js": "/your-repo-name/static/js/453.1f8a33f9.chunk.js",
-    "static/media/fa-solid-900.ttf": "/your-repo-name/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
-    "static/media/img1.jpg": "/your-repo-name/static/media/img1.9b057d9562a511430333.jpg",
-    "static/media/fa-brands-400.ttf": "/your-repo-name/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
-    "static/media/fa-solid-900.woff2": "/your-repo-name/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
-    "static/media/fa-brands-400.woff2": "/your-repo-name/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
-    "static/media/img2.jpg": "/your-repo-name/static/media/img2.0fd70b9a5a09f05c3b14.jpg",
-    "static/media/img3.jpg": "/your-repo-name/static/media/img3.bbf0cb6169de54116f93.jpg",
-    "static/media/fa-regular-400.ttf": "/your-repo-name/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
-    "static/media/img4.jpg": "/your-repo-name/static/media/img4.2397064d4f791227ea88.jpg",
-    "static/media/fa-regular-400.woff2": "/your-repo-name/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
-    "static/media/aimodel.jpg": "/your-repo-name/static/media/aimodel.c405f55710e504151073.jpg",
-    "static/media/fa-v4compatibility.ttf": "/your-repo-name/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
-    "static/media/fa-v4compatibility.woff2": "/your-repo-name/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
-    "index.html": "/your-repo-name/index.html",
-    "main.4362509d.css.map": "/your-repo-name/static/css/main.4362509d.css.map",
-    "main.1c9295cd.js.map": "/your-repo-name/static/js/main.1c9295cd.js.map",
-    "453.1f8a33f9.chunk.js.map": "/your-repo-name/static/js/453.1f8a33f9.chunk.js.map"
+    "main.css": "/DeepTech/static/css/main.33c2784c.css",
+    "main.js": "/DeepTech/static/js/main.8f9a957e.js",
+    "static/js/453.1f8a33f9.chunk.js": "/DeepTech/static/js/453.1f8a33f9.chunk.js",
+    "static/media/fa-solid-900.ttf": "/DeepTech/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/img1.jpg": "/DeepTech/static/media/img1.9b057d9562a511430333.jpg",
+    "static/media/fa-brands-400.ttf": "/DeepTech/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/DeepTech/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/DeepTech/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/img2.jpg": "/DeepTech/static/media/img2.0fd70b9a5a09f05c3b14.jpg",
+    "static/media/img3.jpg": "/DeepTech/static/media/img3.bbf0cb6169de54116f93.jpg",
+    "static/media/fa-regular-400.ttf": "/DeepTech/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/img4.jpg": "/DeepTech/static/media/img4.2397064d4f791227ea88.jpg",
+    "static/media/fa-regular-400.woff2": "/DeepTech/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/aimodel.jpg": "/DeepTech/static/media/aimodel.c405f55710e504151073.jpg",
+    "static/media/fa-v4compatibility.ttf": "/DeepTech/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/DeepTech/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/DeepTech/index.html",
+    "main.33c2784c.css.map": "/DeepTech/static/css/main.33c2784c.css.map",
+    "main.8f9a957e.js.map": "/DeepTech/static/js/main.8f9a957e.js.map",
+    "453.1f8a33f9.chunk.js.map": "/DeepTech/static/js/453.1f8a33f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4362509d.css",
-    "static/js/main.1c9295cd.js"
+    "static/css/main.33c2784c.css",
+    "static/js/main.8f9a957e.js"
   ]
 }
