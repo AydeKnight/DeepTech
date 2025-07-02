@@ -1,3 +1,4 @@
+Link : https://aydeknight.github.io/DeepTech/
 # Modern AI Model Blog
 
 A visually stunning, modern single-page React app for showcasing AI model solutions, pricing, testimonials, and more. Designed for creative tech brands and agencies.
